@@ -1,0 +1,211 @@
+#elem1 {
+    text-shadow: 10px 5px 3px  
+}
+#elem2 {
+    text-shadow: -10px -5px -0px green
+}
+#elem3 {
+    text-shadow: 15px -10px 0px green
+}
+#elem4 {
+    text-shadow: 0px 0px 5px green
+}
+#elem5 {
+	text-shadow: 5px 5px 3px red, -5px -5px 3px green ;
+}
+#elem6 {
+    text-shadow: 2px 2px 2px black   
+}
+#elem7 {
+    text-shadow: 0px 0px 4px black
+}
+#elem8 {
+    text-shadow: 0 0 3px red;
+}
+#elem9 {
+    text-shadow: 10px 10px 2px red, -10px -10px 2px blue ;
+}
+#elem10 {
+    text-shadow: 10px 10px 1px red, 20px 20px 1px blue ;
+}
+#box1 {
+    box-shadow: 20px 15px 0px red;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#box2 {
+    box-shadow: 20px -15px 0px green;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#box3 {
+    box-shadow: inset 0px 0px 5px black;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#box4 {
+    box-shadow: inset 4px 3px 3px black;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#box5 {
+    box-shadow:  0px 2px 0px black, 0px -2px 0px black;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#box6 {
+    box-shadow:  0px 30px 0px black, 0px -30px 0px black, 30px 0px 0px black, -30px 0px 0px black;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#box7 {
+    box-shadow:  20px 30px 0px black;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#box8 {
+    box-shadow:  20px 30px 10px black;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#box9 {
+    box-shadow:  20px 30px 10px black, -20px -30px 10px black;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#box10 {
+    box-shadow: inset 4px 4px 8px black;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#box11 {
+    box-shadow: inset 4px 4px 8px blue, inset -4px -4px 8px red;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#cc1 {
+	background: linear-gradient(yellow, white);
+    border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#cc2 {
+	background: linear-gradient(90deg, yellow, white);
+    border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#cc3 {
+	background: linear-gradient(270deg, yellow, white);
+    border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#cc4 {
+	background: linear-gradient(315deg, red, white);
+    border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#cc5 {
+	background: linear-gradient(to left, blue, red);
+    border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#cc6 {
+	background: linear-gradient(white 100px, red 100px);
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#rad1 {
+
+		width: 200px;
+		height: 200px;
+		border: 1px solid black;
+		background: radial-gradient(#4DD5F8, #0B8DBF);
+}
+#rad2 {
+	background: radial-gradient( at 100px 0px, #4DD5F8, #0B8DBF);
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}    
+#rad3 {
+	background: radial-gradient(circle, #55ddff, #0081b5);
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}   
+#rad4 {
+	background: radial-gradient(ellipse, #55ddff, #0081b5);
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+} 
+#rad5 {
+	background: radial-gradient(circle closest-side, #55ddff, #0081b5);
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+} 
+#rad6 {
+	background: radial-gradient(circle closest-corner at 30px 40px, #55ddff, #0081b5);
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+} 
+#rad7{
+	background: radial-gradient(circle closest-side, #333 10px, white 30px, white 40px, green 50px);
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+} 
+#rad8 {
+	background: radial-gradient(circle closest-side, green 0px, green 30px, white 30px, white 50px, green 50px);
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+} 
+#p1 {
+	background: repeating-linear-gradient(90deg,white, white 5px, black 5px, black 10px);
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}   
+#p2 {
+	background: repeating-linear-gradient(0deg, white, white 5px, black 5px, black 10px);
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}   
+#p3 {
+	background: repeating-linear-gradient(to top, white, white 5px, black 5px, black 6px);
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}   
+#p4 {
+	background: repeating-linear-gradient(45deg, white, white 5px, red 5px, red 8px);
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+} 
+#final {
+	background: repeating-radial-gradient(circle, black, black 5px, white 5px, white 10px);
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}  
